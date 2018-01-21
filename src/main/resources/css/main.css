@@ -1,0 +1,63 @@
+.button{
+    -fx-border-color: transparent;
+    -fx-border-width: 0;
+    -fx-background-radius: 0;
+    -fx-background-color: transparent;
+    -fx-font-family:"Segoe UI", Helvetica, Arial, sans-serif;
+    -fx-font-size: 1em; /* 12 */
+    -fx-text-fill: #828282;
+    /*-fx-cursor: hand;*/
+}
+
+.button:focused {
+    /*-fx-border-color: transparent, black;*/
+    /*-fx-border-width: 1, 1;*/
+    /*-fx-border-style: solid, segments(1, 2);*/
+    /*-fx-border-radius: 0, 0;*/
+    /*-fx-border-insets: 1 1 1 1, 0;*/
+}
+
+.button:pressed {
+    -fx-background-color: black;
+    -fx-text-fill: white;
+}
+
+#songTitle {
+    /*-fx-color-label-visible: #616161;*/
+    /*-fx-font: 100px Tahoma;*/
+    /*-fx-fill: linear-gradient(from 0% 0% to 100% 200%, repeat, aqua 0%, red 50%);*/
+    /*-fx-stroke: black;*/
+    /*-fx-stroke-width: 1;*/
+}
+
+
+.root {
+    -fx-background-color: white;
+    -fx-effect: dropshadow(three-pass-box, grey, 10, 0, 4, 4);
+}
+
+.background {
+    -fx-background-color: #1d1d1d;
+}
+
+.modal-dialog-glass {
+    /*-fx-effect: dropshadow(three-pass-box, derive(cadetblue, -20%), 10, 0, 4, 4);*/
+    -fx-background-color: derive(cadetblue, -20%);
+    -fx-background-insets: 12;
+    -fx-background-radius: 6;
+}
+
+.modal-dialog-content {
+    -fx-padding: 20;
+    -fx-spacing: 10;
+    -fx-alignment: center;
+    -fx-font-size: 20;
+    /*-fx-background-color: linear-gradient(to bottom, derive(cadetblue, 20%), cadetblue);*/
+    -fx-border-color: derive(cadetblue, -20%);
+    -fx-border-width: 5;
+    -fx-background-insets: 12;
+    -fx-border-insets: 10;
+    -fx-border-radius: 6;
+    -fx-background-radius: 6;
+}
+Raw
